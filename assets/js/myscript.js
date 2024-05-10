@@ -54,7 +54,7 @@
  })
 
 
-            fetch('../assets/js/skills.json')
+            fetch('./assets/js/skills.json')
             .then((data)=>{
               return data.json();
             }).then((completedata)=>{
